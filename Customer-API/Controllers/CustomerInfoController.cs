@@ -46,7 +46,7 @@ namespace Customer.Controllers
             return Ok(customerInfos);
         }
 
-        // POST
+        // POST OR INSERT
         [HttpPost]
         public IActionResult Create(CustomerInfo customerInfo)
         {
